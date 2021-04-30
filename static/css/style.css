@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-img{
+    height: 100px;
+   position: relative;
+   top: 22px;
+    right: 60px;
+}
+.card-img img{
+
+    height: inherit;
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    margin: 0px 10px;
+    position: relative;
+    top: 20px;
+    right: 15px;
+    height: 100px;
+}
+
+#navbar{
+    background-color: rgb(1, 9, 12); 
+    /* padding: 7px 4px; */
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar a{
+    text-decoration: none;
+    
+}
+#navbar li {
+    list-style: none;
+    padding: 9px 28px;
+    /* background-color: white; */
+    
+}
+#navbar li a:hover{
+    color: red;
+    
+}
+#navbar li a{
+    font-size: 1.5rem;
+    color: white;
+    
+}
+#introsection{
+    height: 300px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/photos/bh.jpg");
+    
+            
+}
+#introsection div.small{
+    font-size: 1rem;
+            
+}
+#introsection div{
+    background-color: white;
+            
+}
+#displaysection{
+    height: 300px;
+    background-color: rgb(196, 32, 32);
+}
+#displaysection h2{
+    text-align: center;
+}
+.card {
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 209px;
+    width: 29%;
+    margin: 23px 22px;
+    display: inline-block;
+    text-align: center;
+   
+}
+.text{
+    position: relative;
+    top: 10px;
+}
+#sponser-section{
+    color: white;
+    height: 200px;
+    text-align: center;
+    margin: 12px 2px;
+    font-size: 20px;
+    font-family: "yeon sung";
+}
+#sponser-section img{
+    height: 150px;
+    max-width: 900px;
+    margin: 10px 10px;
+    border-radius: 10px;
+
+    
+
+}
+
+#footer{
+    height: 30px;
+    color: white;
+    /* border: 2px solid white; */
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    background: black;
+    text-shadow: white;
+    
+    
+}

@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+      script(src='/static/js/index.js')
+block style
+    style
+      include ../static/css/style.css
+block content 
+     
+        section#introsection 
+        
+            div Welcome to Blogging website of Indian sports club 
+            div.small create a blog for free and with ease
+
+        section#displaysection 
+             h2 This is an sponser section
+             div.card 
+                h3.text This is a para
+                div.card-box 
+                    div.card-img
+                        img(src="/static/photos/jk.jpg")
+                    div.card-content 
+                        p The best blogging website ever
+              
+             div.card 
+              h3.text This is a para
+              div.card-box 
+                    div.card-img
+                        img(src="/static/photos/jk.jpg")
+                    div.card-content 
+                        p The best blogging website ever
+             div.card 
+              h3.text This is a para
+              div.card-box 
+                    div.card-img
+                        img(src="/static/photos/jk.jpg")
+                    div.card-content 
+                        p The best blogging website ever
+        section#sponser-section 
+          h3 SPONSERS 
+            div.spon 
+              img(src="/static/photos/ak.jpg" alt="File not find"  class="image")
+              img(src="/static/photos/am.jpg" alt="File not find"  class="image")
+              
+              img(src="/static/photos/bv.jpg" alt="File not find"  class="image")
+              img(src="/static/photos/da.jpg" alt="File not find"  class="image")
+        

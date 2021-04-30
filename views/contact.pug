@@ -1,0 +1,16 @@
+extends base.pug
+block scripts  
+    script(src='/static/js/index.js')
+block style
+    style
+      include ../static/css/style.css
+      include ../static/css/style1.css
+block content
+    h1 CONTACT US 
+    form(action="contact" method="post" class="formo") 
+        input(type="text" name="name" placeholder="Enter your name" class="myinput")
+        input(type="text" name="name" placeholder="Enter your name" class="myinput")
+        input(type="text" name="name" placeholder="Enter your name" class="myinput")
+        input(type="text" name="name" placeholder="Enter your name" class="myinput")
+        button(type="submit" name="button" class="but")
+            | submit
